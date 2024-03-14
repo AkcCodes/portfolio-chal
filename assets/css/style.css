@@ -151,6 +151,7 @@ footer ul li{
     }
     
     header nav ul li{
+        display: flex;
         font-size: 20px;
         max-width: 100%;
         flex-direction: row;
