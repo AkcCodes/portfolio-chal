@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Castoro Titling';font-size: 22px;
+}
+
+body {
+    background-image: linear-gradient(
+        rgba(23, 216, 55, 0.3) 0%,
+        rgba(4, 32, 17, 0.6) 100%
+      );;
+}
+
+
+header{
+    position: relative;
+    padding: 40px;
+    background-color: black;
+    color: darkgreen;
+}
+
+h1{
+    font-size: 50px;
+}
+nav{
+    margin-right: 30px;
+    float: right;
+    font-family: ;
+}
+
+ul li{
+list-style-type: disc;
+display:inline-block;
+margin-left: 30px;
+font-size: 20px;
+}
+
+.subtitle {
+        max-width: 100%;
+        margin: 0;
+        padding: 10%;
+        font-size: 30px;
+        background-image: url("https://images.unsplash.com/photo-1467521335787-2f0fc0f0e9a0?q=80&w=1960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.subtitle h1{
+    justify-content: end;
+    text-align: right;
+}
+
+
+#about-me{
+    padding: 1%;
+    background-color: beige;
+}
+
+#projects{
+  max-width: 100%;
+  display: flex;
+  flex-direction:column;
+}
+
+
+.module1{
+    position: relative;
+}
+
+.module1 img{
+        width: 600px;
+        margin-top: 10px;
+        border-style: solid;
+        border-color: aliceblue;
+        box-shadow: 10px 10px 10px gold;
+
+}
+
+.coming-soon{
+    position: relative;
+}
+
+.coming-soon img{
+    width: 350px;
+    margin-top: 15px;
+    border-style: solid;
+        border-color: black;
+        box-shadow: 10px 10px 10px grey;
+
+    
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#resume{
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer ul{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer ul li{
+    padding: 0 40px 0 40px; 
+}
